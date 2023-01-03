@@ -10,13 +10,19 @@ Function has 4 properties:
     4. return type
 
 Lambda has 3 properties:
+     
      1. List of parameters
+    
      2. an arrow -> which separates the list of parameters from body of lambda function.
+    
      3. body of lambda
 
 Functional Interface:
+      
       - It is behind every lambda.
+      
       - can only have one abstract method. <- this is important in order to remove ambiguity while writing a lambda expression
+      
       - Post java 8 we can assume function as variable assignments.
 
 - Lambda helps us pass behavior as parameter
@@ -30,4 +36,11 @@ Imperative vs Declarative vs Functional Programming:
     - Functional programming is subset of declarative programming.
     - using conventional for loop is imperative programming
     - using stream is declarative programming or functional programming.
+
+Most used Functional Interfaces:
+    - Predicate
+    - Consumer
+    - Function
+    - Supplier
+
 
