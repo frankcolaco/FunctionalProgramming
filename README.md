@@ -38,9 +38,26 @@ Imperative vs Declarative vs Functional Programming:
     - using stream is declarative programming or functional programming.
 
 Most used Functional Interfaces:
+Below are the predefined functional interfaces which are included in java.util package:
+
     - Predicate
     - Consumer
     - Function
     - Supplier
+    - UnaryOperator
+    - BinaryOperator
+    - BiPredicate
+    - BiConsumer
+    - BiFunction
+
+Predicate:
+    - has a method test which returns boolean
+
+Consumer:
+    - it has method accept and returns nothing
+
+Supplier:
+    - it has method get and returns something
+                
 
 
