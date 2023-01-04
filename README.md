@@ -58,6 +58,30 @@ Consumer:
 
 Supplier:
     - it has method get and returns something
-                
+
+Function:
+    - it has a method apply that takes something and returns something
+    - it is used for transformation from one object to another                
+
+UnaryOperator:
+    - extends function interface
+    - it takes argument of type T and returns the same type T
+
+BiFunction:
+    - takes two parameters and returns a value
+    - also has apply method like function
+    - extends function interface
+
+BinaryOperator:
+    - extends bifunction interface
+    - it takes two arguments of type T and returns the same type T
+
+Method reference in functional programming:
+    - double colon operator is used for method reference.
+    - there are different ways to use method reference:
+        - object::instanceMethod: method reference to an instance method of an existing object.
+        - Class::staticMethod: method reference to a static method of a class.
+        - Class::instanceMethod: method reference to an instance method of an input object of a particular type
+        - Class::new: constructor reference.  
 
 
