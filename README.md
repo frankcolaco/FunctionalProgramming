@@ -51,33 +51,47 @@ Below are the predefined functional interfaces which are included in java.util p
     - BiFunction
 
 Predicate:
+    
     - has a method test which returns boolean
 
 Consumer:
+    
     - it has method accept and returns nothing
 
 Supplier:
+    
     - it has method get and returns something
 
 Function:
+   
     - it has a method apply that takes something and returns something
+    
     - it is used for transformation from one object to another                
 
 UnaryOperator:
+   
     - extends function interface
+    
     - it takes argument of type T and returns the same type T
 
 BiFunction:
+   
     - takes two parameters and returns a value
+    
     - also has apply method like function
+    
     - extends function interface
 
 BinaryOperator:
+    
     - extends bifunction interface
+   
     - it takes two arguments of type T and returns the same type T
 
 Method reference in functional programming:
+   
     - double colon operator is used for method reference.
+   
     - there are different ways to use method reference:
         - object::instanceMethod: method reference to an instance method of an existing object.
         - Class::staticMethod: method reference to a static method of a class.
@@ -85,26 +99,38 @@ Method reference in functional programming:
         - Class::new: constructor reference.
 
 Optional:
+    
     - it was introduced to overcome Null Pointer Exception(NPE).
+    
     - wrap the object in optional which will help overcome NPE.
+    
     - it is similar to a box which keeps value in it.
+    
     - it 16 bytes in length
+    
     - it is object
+    
     - it is immutable
+    
     - the method ofNullable() will store empty optional when we store null in it. 
         + for eg.: Optional<String> emptyOptional = Optional.ofNullable(null);
 
+
     - To get value from Optional we use get().
+    
     - get() is not reccomended to be used to get the value from optional as it might result in "NoSuchElementException" in case when the optional has empty value.
+    
     - safer way is to use isPresent() before invoking get().
+    
     - there are couple of more ways to get the value from optional
         + using orElse()
         + using orElseGet()
         + using orElseThrow()
+    
     - operations in optional:
         + map
         + filter
         + flatMap
-                     
+
 
 
