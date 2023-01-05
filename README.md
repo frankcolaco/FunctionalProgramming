@@ -82,6 +82,29 @@ Method reference in functional programming:
         - object::instanceMethod: method reference to an instance method of an existing object.
         - Class::staticMethod: method reference to a static method of a class.
         - Class::instanceMethod: method reference to an instance method of an input object of a particular type
-        - Class::new: constructor reference.  
+        - Class::new: constructor reference.
+
+Optional:
+    - it was introduced to overcome Null Pointer Exception(NPE).
+    - wrap the object in optional which will help overcome NPE.
+    - it is similar to a box which keeps value in it.
+    - it 16 bytes in length
+    - it is object
+    - it is immutable
+    - the method ofNullable() will store empty optional when we store null in it. 
+        + for eg.: Optional<String> emptyOptional = Optional.ofNullable(null);
+
+    - To get value from Optional we use get().
+    - get() is not reccomended to be used to get the value from optional as it might result in "NoSuchElementException" in case when the optional has empty value.
+    - safer way is to use isPresent() before invoking get().
+    - there are couple of more ways to get the value from optional
+        + using orElse()
+        + using orElseGet()
+        + using orElseThrow()
+    - operations in optional:
+        + map
+        + filter
+        + flatMap
+                     
 
 
