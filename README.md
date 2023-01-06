@@ -140,9 +140,13 @@ Optional:
 
 
 Functional Programming:
+    
     - is program paradigm which is based on pure mathematical functions
+    
     - is a declarative style
+    
     - makes use of expressions
+    
     - also based on Lambda calculus
 
     Key Concepts:
