@@ -131,6 +131,33 @@ Optional:
         + map
         + filter
         + flatMap
+        + ifPresent
+        + ifPresentOrElse
+        + stream
+        + or
+        + equals: condition is to check if both the objects are optional, either both are empty or both contain same value.
+        + hashcode
+
+
+Functional Programming:
+    - is program paradigm which is based on pure mathematical functions
+    - is a declarative style
+    - makes use of expressions
+    - also based on Lambda calculus
+
+    Key Concepts:
+        - Function as first class citizens: meaning passing functions as arguments to methods.
+
+        - Pure functions: output on pure functions depend only on it's input params and it's algorithm.
+                          function that takes input, applies the algo and returns the result are pure functions.
+                          functions that takes input, manipulates the input and changes the input value and returns a result based on algo are impure functions.
+
+        - Higher order functions: 
+
+        - no side effects
+
+        - referencial transparency
+
 
 
 

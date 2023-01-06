@@ -18,5 +18,29 @@ public class OperationsOnOptionalHandsOn {
         //flatMap
 
         System.out.println(oStr1.flatMap(val -> Optional.of("Replace")).orElse("Empty"));
+
+        //ifPresent
+
+        Optional<String> oStr2 = Optional.of("functionalProgramming");
+        oStr2.ifPresent(System.out::println);
+
+        //ifPresentOrElse
+
+        Optional.empty().ifPresentOrElse(System.out::println,()-> System.out.println("Optional is empty"));
+
+        // stream
+        oStr2.stream().forEach(System.out::println);
+        Optional.empty().stream().forEach(System.out::println);
+
+        // OR similar to ifPresent but executes in case optional is empty
+        Optional.empty().or(()-> Optional.of("newFunctionalProgramming")).ifPresent(System.out::println);
+        oStr2.or(()-> Optional.of("noValue")).ifPresent(System.out::println);
+
+        //equals
+
+        System.out.println("two optionals are equal:: "+
+                oStr2.equals(oStr1));
+
+
     }
 }
