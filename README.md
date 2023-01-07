@@ -156,11 +156,32 @@ Functional Programming:
                           function that takes input, applies the algo and returns the result are pure functions.
                           functions that takes input, manipulates the input and changes the input value and returns a result based on algo are impure functions.
 
-        - Higher order functions: 
+        - Higher order functions: takes functions as params, or returns lambda or does both
+                                  
 
         - no side effects
 
-        - referencial transparency
+        - referencial transparency: is a property of a function, variable or expression whereby the expression can be   replaced  by it's(evaluated) value without affecting the behaviour of the program.
+
+Functional Programming Techniques:
+            
+    - Function Chaining:
+            - chain one function to another.
+    
+    - Function Composition:
+            - follows reverse chaining. for eg. calling another function will result in calling second function first and then the caller function.
+
+    - Closures: 
+            - is a function that refers to free variables in it's lexical context.
+
+    - Currying:
+
+    - Lazy Evaluation:
+            - delays evaluation of expression.
+            - saves computing resources
+
+    - Tail Call Optimization:
+            - 
 
 
 
