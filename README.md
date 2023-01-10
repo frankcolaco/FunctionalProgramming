@@ -192,7 +192,11 @@ Design Patterns in functional way
 
     - Strategy Design Pattern:
 
-        - is used when we have multiple solution or algorithms to solve a specific task and client decides the specific implementation which is to be used at runtime.        
+        - is used when we have multiple solution or algorithms to solve a specific task and client decides the specific implementation which is to be used at runtime.
+
+    - Decorator Design Pattern:
+        - is used to modify functionality of object at runtime without affecting other instances of same class.
+        -             
 
 
 
