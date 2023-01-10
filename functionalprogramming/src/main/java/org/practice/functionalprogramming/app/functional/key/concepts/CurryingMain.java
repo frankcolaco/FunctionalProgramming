@@ -1,4 +1,6 @@
-package org.practice.functionalprogramming.main;
+package org.practice.functionalprogramming.app.functional.key.concepts;
+
+import org.practice.functionalprogramming.app.functional.key.concepts.Function;
 
 public class CurryingMain {
 

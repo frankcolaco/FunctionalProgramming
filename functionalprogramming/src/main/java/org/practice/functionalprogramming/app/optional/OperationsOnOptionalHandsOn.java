@@ -1,4 +1,4 @@
-package org.practice.functionalprogramming.main;
+package org.practice.functionalprogramming.app.optional;
 
 import java.util.Optional;
 

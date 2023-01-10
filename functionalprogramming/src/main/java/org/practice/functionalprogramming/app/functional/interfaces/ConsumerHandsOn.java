@@ -1,4 +1,4 @@
-package org.practice.functionalprogramming.main;
+package org.practice.functionalprogramming.app.functional.interfaces;
 
 import java.util.List;
 import java.util.function.Consumer;

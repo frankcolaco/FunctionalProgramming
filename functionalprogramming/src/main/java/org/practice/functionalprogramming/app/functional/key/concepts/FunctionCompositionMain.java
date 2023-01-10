@@ -1,4 +1,4 @@
-package org.practice.functionalprogramming.main;
+package org.practice.functionalprogramming.app.functional.key.concepts;
 
 import lombok.Getter;
 import lombok.Setter;

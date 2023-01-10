@@ -1,6 +1,5 @@
-package org.practice.functionalprogramming.main;
+package org.practice.functionalprogramming.app;
 
-import java.sql.SQLOutput;
 import java.util.function.Function;
 
 public class ConstructorReference {

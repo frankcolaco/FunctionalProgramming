@@ -180,8 +180,19 @@ Functional Programming Techniques:
             - delays evaluation of expression.
             - saves computing resources
 
-    - Tail Call Optimization:
-            - 
+    - Tail Call Optimization
+
+Design Patterns in functional way
+
+    - Iterator Desgin Pattern:
+        
+        - behaviour design pattern: accessing elements without exposing internal structure.
+
+        - enables to get a way to access the elements of collection object in sequential manner without any need to know it's internal representation.
+
+    - Strategy Design Pattern:
+
+        - is used when we have multiple solution or algorithms to solve a specific task and client decides the specific implementation which is to be used at runtime.        
 
 
 
