@@ -226,7 +226,42 @@ Design Patterns in functional way
 
         - encapsulating a request as an object.
 
-        - it is a way to encapsulate a request as an object, parameterize clients with different request and perform corresponding operations.                     
+        - it is a way to encapsulate a request as an object, parameterize clients with different request and perform corresponding operations.
+
+Streams and Parallel Streams:
+
+    Streams are declartive, flexible and parallelizable.
+    
+    With streams we can create stream pipeline.
+
+    Stream pipeline consist of source, zero or more intermediate operations and a terminal operation.
+
+    Stream can operated only once, meaning Streams are not containers.
+
+    Stream Methods:
+
+        - Filter method:
+
+            - it is a higher order method
+            
+            - equivalent to if condition
+            
+            - param is a predicate
+
+        - Map method:
+
+            - it is a higher order method
+
+            - takes a mapper function as param
+
+        - Reduce method:
+            - it is a higher order method
+
+            - this can be used to find the sum of all elements or product of all elements
+
+    All intermediate operations on stream are lazy.
+
+    All terminal operations are eager.                
 
 
 
