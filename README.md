@@ -196,7 +196,37 @@ Design Patterns in functional way
 
     - Decorator Design Pattern:
         - is used to modify functionality of object at runtime without affecting other instances of same class.
-        -             
+
+    - Creating Fluent Interfaces:
+        - provides easy readable, flowing interface that often mimics a domain specific language.
+
+        - using this pattern results in code that can be read nearly as human language.
+
+    - Factory Design Pattern:
+
+        - creational design pattern.
+
+        - creating object without exposing instantiation logic.
+
+        - is a way to instantiating a class inside desginated method that we call a factory method.
+
+        - factory is a object that is able to create other objects.
+
+    Builder Design Pattern:
+
+        - is all about flexibility in Object Creation.
+
+        - intent of builder design pattern is to isolate the construction of a complex object from it's representation.
+
+        - eg. StringBuilder and StringBuffer
+
+    Command Design Pattern:
+
+        - is a behaviorial design pattern
+
+        - encapsulating a request as an object.
+
+        - it is a way to encapsulate a request as an object, parameterize clients with different request and perform corresponding operations.                     
 
 
 
