@@ -261,8 +261,78 @@ Streams and Parallel Streams:
 
     All intermediate operations on stream are lazy.
 
-    All terminal operations are eager.                
+    All terminal operations are eager.
 
+Numeric Streams:
+    
+    We get basic in built functions of math in the numeric streams.
+
+    - IntStream
+
+    - LongStream
+
+    - DoubleStream                    
+
+    map: maps to object and mapToDouble maps to primitive double.
+         similarly we have mapToInt and mapToLong.
+
+     - Methods for numeric streams:
+
+        - sum
+
+        - max returns optional primitive
+
+        - min returns optional primitive
+
+        - average returns optional double
+
+        - summaryStatistics: gives details of min, max, average, count and sum together
+
+Bounded Streams:
+     
+     - various ways to create bounded stream:
+
+        1. using stream method of collection
+
+        2. of() of Stream class
+
+        3. stream() of array class
+
+        4. builder() of Stream class
+
+Infinte streams:
+
+    - various ways to create infinte streams:
+
+        1. using iterate() of Stream class
+
+        2. using generate() of Stream class
+
+Parallel Streams:
+
+    choosing parallelism is very important and in order to choose we should consider below factors:
+
+    Stream should be:
+
+        - Stateless
+
+        - Non-interfering
+
+        - Associative
+
+    Stateless and Statefull operations:
+        
+        Stateless:  do not need any kind of outside information
+
+        Statefull:  require outside information 
+
+    Fork Join Pool:
+        
+        used by all parallel stream operations
+
+        takes all available processor by default
+        
+         
 
 
 
