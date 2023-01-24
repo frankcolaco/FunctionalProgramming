@@ -360,7 +360,25 @@ Collectors:
 
             - Collectors.groupingBy(classifier)
 
-                 is to group the data based on the classifier.     
+                 is to group the data based on the classifier.
+
+    - How Collector works internally?
+
+        - is an interface with higher order functions:
+            1. supplier() 2. accumulator() 3. combiner() 4. finisher() 5. characteristics() <- not a higher order function
+
+            + Supplier returns a supplier.
+
+            + Accumulator returns BiConsumer.
+
+            + Combiner returns a BinaryOperator.
+
+            + Finisher returns a function.
+
+            + Characteristics returns a Set.       
+
+        - Inside Collector class there is a static class "ConnectorImpl" which has implementation for above classes.
+                        
 
 
 
