@@ -332,7 +332,36 @@ Parallel Streams:
 
         takes all available processor by default
         
-         
+Creating Custom Streams:
+
+    1. Spliterator:
+            when you have a custom source other than collection of data in that can use spliterator.
+
+            it is an interface which hels us to iterate over a non-collection data structure
+
+            Characteristics of spliterator:
+                ORDERED
+                DISTINCT
+                SORTED
+                SIZED
+                NONNULL
+                IMMUTABLE
+                CONCURRENT
+                SUBSIZED      
+
+Collectors:
+    is a utility class with all static methods to return a specific collector
+
+    very useful utilities: 
+            
+            - Collectors.partitioningBy(predicate):
+
+                 is to get a collection which will collect data based on a criteria for both true and false events. It is called Collectors.partitioningBy(). check code "CollectorsMain.java" for more information.
+
+            - Collectors.groupingBy(classifier)
+
+                 is to group the data based on the classifier.     
+
 
 
 
