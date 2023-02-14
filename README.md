@@ -378,6 +378,16 @@ Collectors:
             + Characteristics returns a Set.       
 
         - Inside Collector class there is a static class "ConnectorImpl" which has implementation for above classes.
+
+Data Structures Functional way:
+
+    - Functional Data structure:
+
+        - not imperative; implemented in a functional way
+        - A functional data structure is:
+                - Immutable
+                - Persistent : any modification occurs in data structure -> have to preserve the previous state of itself.
+                - Methods of functional data structure are referential transparent: we can a function once, catch value and use it anywhere.
                         
 
 
