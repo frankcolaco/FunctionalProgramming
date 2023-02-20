@@ -388,6 +388,10 @@ Data Structures Functional way:
                 - Immutable
                 - Persistent : any modification occurs in data structure -> have to preserve the previous state of itself.
                 - Methods of functional data structure are referential transparent: we can a function once, catch value and use it anywhere.
+
+        - List:
+            - make sure the list should be an immutable list
+                    
                         
 
 
