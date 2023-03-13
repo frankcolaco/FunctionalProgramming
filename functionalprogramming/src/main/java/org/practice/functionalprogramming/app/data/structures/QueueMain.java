@@ -14,5 +14,7 @@ public class QueueMain {
 
         dequeue.forEach(System.out::println);
 
+        System.out.println(enqueue.peek());
+
     }
 }
