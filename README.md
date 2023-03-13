@@ -391,7 +391,10 @@ Data Structures Functional way:
 
         - List:
             - make sure the list should be an immutable list
-                    
+
+        - Queue:
+            - FIFO
+            -             
                         
 
 
